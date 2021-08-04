@@ -36,9 +36,6 @@ export default function Settings({ navigation }) {
         <Text style={styles.item}>
           Versão do aplicativo
         </Text>
-        <Button title="openURL" onPress= {openUrl('https://aboutreact.com')}  >
-
-        </Button>
       </View>
     </View>
   );

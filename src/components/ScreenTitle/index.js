@@ -13,13 +13,14 @@ const styles = StyleSheet.create({
 
   container: {
     flex: 1,
-    padding: 24,
+    paddingLeft: 12,
+    paddingTop: 6,
   },
 
   title: {
-    paddingVertical: 30,
+    
     color: "#20232a",
-    fontSize: 30,
+    fontSize: 48,
     fontWeight: "bold"
   }
   
