@@ -33,7 +33,7 @@ export const styles = StyleSheet.create({
     color: "#343a40",
     fontSize: 20,
     paddingTop:12,
-    paddingLeft:24,
+    paddingLeft:16,
     fontWeight: "bold"
   },
   btn: {

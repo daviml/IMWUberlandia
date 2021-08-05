@@ -15,7 +15,7 @@ export default function Donate({ navigation }) {
         <ScreenTitle name='Doe'/>
       </View>
       <View style={styles.mid}>
-        <Text style={styles.h2}>Veja o que Deus pode fazer através da sua generosidade</Text>
+        <Text style={styles.h2}>Veja o que Deus pode fazer através da sua generosidade.</Text>
         <Card >
           <Text style={styles.h2card}>Dízimos e Ofertas</Text>
           
