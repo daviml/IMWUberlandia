@@ -20,8 +20,9 @@ getCurrentPosition()
 export default function Locations({ navigation }) {
   return (
     <View style={styles.container}>
-      <ScreenTitle name='Onde'/>
-        <MapView 
+      
+      
+      <MapView 
           provider={PROVIDER_GOOGLE}
           style={styles.map}
           initialRegion={initialRegion}
@@ -38,6 +39,9 @@ export default function Locations({ navigation }) {
             R. Rio de Janeiro, 975 - Brasil, Uberlândia - MG
           </Text>
         </View>
+      
+      
+        
     </View>
     
   );

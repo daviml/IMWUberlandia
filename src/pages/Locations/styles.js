@@ -8,12 +8,11 @@ export const styles = StyleSheet.create({
     paddingTop: (StatusBar.currentHeight),
   },
   top: {
-    flex: 0.1,
-    backgroundColor:'gray',
+    top:20,
+    
   },
   mid: {
-    flex: 0.9,
-    backgroundColor:'black',
+    
   },
   map: {
     width: Dimensions.get('window').width,
