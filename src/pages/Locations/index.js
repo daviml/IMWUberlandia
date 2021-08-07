@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, Button } from 'react-native';
 import ScreenTitle from "../../components/ScreenTitle";
 import { styles } from "./styles";
-import MapView, {PROVIDER_GOOGLE,Marker} from 'react-native-maps';
+import MapView, { Marker } from 'react-native-maps';
 import * as Location from "expo-location";
 
 const initialRegion = {
@@ -23,7 +23,6 @@ export default function Locations({ navigation }) {
       
       
       <MapView 
-          provider={PROVIDER_GOOGLE}
           style={styles.map}
           initialRegion={initialRegion}
         >

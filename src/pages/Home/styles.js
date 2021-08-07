@@ -8,17 +8,16 @@ export const styles = StyleSheet.create({
     paddingTop: (StatusBar.currentHeight),
   },
   top: {
-    flex: 0.15,
-    backgroundColor:'gray',
+    flex: 0.1,
   },
   mid: {
-    flex: 0.425,
-    backgroundColor:'black',
+    flex: 0.9,
   },
-  bot: {
-    flex: 0.425,
-    backgroundColor:'red',
+  card: {
+    margin:20,
   },
-  
+  cardTitle: {
+    fontWeight: "bold"
+  },
 })
 

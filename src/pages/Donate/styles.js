@@ -16,7 +16,6 @@ export const styles = StyleSheet.create({
   },
   mid: {
     flex: 1,
-    justifyContent:'center',
     
   },
   h2: {
@@ -26,6 +25,7 @@ export const styles = StyleSheet.create({
     paddingBottom:0,
     paddingLeft:12,
     paddingRight:12,
+   
     paddingBottom:24,
     
   },
@@ -37,12 +37,13 @@ export const styles = StyleSheet.create({
     fontWeight: "bold"
   },
   btn: {
-    elevation: 8,
+    elevation: 4,
     backgroundColor: "#009688",
     borderRadius: 10,
-    paddingVertical: 12,
+    paddingVertical: 14,
     margin:12,
     marginTop: 10,
+    marginBottom:0,
     height:60,
   },
   appButtonText: {
@@ -51,10 +52,21 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
     alignSelf: "center",
     textTransform: "uppercase"
+  },
+  title: {
+    paddingTop:0,
+    paddingBottom:0,
+    paddingLeft:12,
+    paddingRight:12,
+    color: "#20232a",
+    fontSize: 48,
+    fontWeight: "bold",
+    paddingTop: 12,
   }
 })
 
 export const Card = styled.View`
+  elevation: 4;
   border-radius: 12px;
   border: 1px;
   border-color: #ced4da;
