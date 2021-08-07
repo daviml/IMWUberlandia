@@ -15,6 +15,8 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingLeft: 12,
     paddingTop: 12,
+    zIndex:5
+    
   },
 
   title: {
