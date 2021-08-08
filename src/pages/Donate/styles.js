@@ -62,6 +62,7 @@ export const styles = StyleSheet.create({
     fontSize: 48,
     fontWeight: "bold",
     paddingTop: 12,
+    
   }
 })
 
@@ -70,7 +71,7 @@ export const Card = styled.View`
   border-radius: 12px;
   border: 1px;
   border-color: #ced4da;
-  height: 400px;
+  height: 350px;
   margin: 12px;
   background-color: #e5e5e5;
 `;

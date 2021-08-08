@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "IMWUberlandia",
+    "name": "IMW Uberlândia",
     "slug": "IMWUberlandia",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,7 +24,13 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "permissions": []
+      "permissions": [],
+      "package": "com.davimoraesladeira.IMWUberlandia",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBav33l0Gil9A5k7SfQtb4zKIEpYToEeQ4"
+        }
+        
     },
     "web": {
       "favicon": "./assets/favicon.png"
