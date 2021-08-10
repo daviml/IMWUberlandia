@@ -30,7 +30,7 @@
         "googleMaps": {
           "apiKey": ""
         }
-        
+      }  
     },
     "web": {
       "favicon": "./assets/favicon.png"
