@@ -63,7 +63,11 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
     paddingTop: 12,
     
-  }
+  },
+  img: {
+    width:350,
+    height:350,
+  },
 })
 
 export const Card = styled.View`
@@ -71,7 +75,9 @@ export const Card = styled.View`
   border-radius: 12px;
   border: 1px;
   border-color: #ced4da;
-  height: 350px;
+  height: 360px;
   margin: 12px;
-  background-color: #e5e5e5;
+  background-color: #FFFFff;
+  justify-content: center;
+  align-items: center;
 `;
