@@ -1,6 +1,5 @@
 import React from "react";
-import { View, Text, Button } from 'react-native';
-import ScreenTitle from "../../components/ScreenTitle";
+import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
 import { styles } from "./styles";
 import MapView, { Marker } from 'react-native-maps';
 import * as Location from "expo-location";
@@ -20,29 +19,46 @@ getCurrentPosition()
 export default function Locations({ navigation }) {
   return (
     <View style={styles.container}>
-      
-      
       <MapView 
-          style={styles.map}
-          initialRegion={initialRegion}
-        >
+        style={styles.map}
+        initialRegion={initialRegion}
+      >
         <Marker
           coordinate={{
-            latitude: -18.893056282245468,
-            longitude: -48.265482229833026}}
+          latitude: -18.893056282245468,
+          longitude: -48.265482229833026}}
           title="IMW Uberlândia"
         />  
-        </MapView>
-        <View style={styles.footer}>
-          <Text style={styles.footerText}>
+      </MapView>
+        
+      <ScrollView style={styles.sv} showsVerticalScrollIndicator={false} >
+        <TouchableOpacity style={styles.csv}>
+          <Text style={styles.csvt}>
             R. Rio de Janeiro, 975 - Brasil, Uberlândia - MG
           </Text>
-        </View>
-      
-      
-        
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.csv}>
+          <Text style={styles.csvt}>
+            R. Rio de Janeiro, 975 - Brasil, Uberlândia - MG
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.csv}>
+          <Text style={styles.csvt}>
+            R. Rio de Janeiro, 975 - Brasil, Uberlândia - MG
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.csv}>
+          <Text style={styles.csvt}>
+            R. Rio de Janeiro, 975 - Brasil, Uberlândia - MG
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.csv}>
+          <Text style={styles.csvt}>
+            R. Rio de Janeiro, 975 - Brasil, Uberlândia - MG
+          </Text>
+        </TouchableOpacity>             
+      </ScrollView>
     </View>
-    
   );
 }
 
