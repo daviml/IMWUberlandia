@@ -27,9 +27,7 @@
       "permissions": [],
       "package": "com.davimoraesladeira.IMWUberlandia",
       "config": {
-        "googleMaps": {
-          "apiKey": ""
-        }
+        
       }  
     },
     "web": {
