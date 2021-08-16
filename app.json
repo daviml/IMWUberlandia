@@ -27,8 +27,11 @@
       "permissions": [],
       "package": "com.davimoraesladeira.IMWUberlandia",
       "config": {
-        
-      }  
+        "googleMaps": {
+          "apiKey": ""
+        }
+      },
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
