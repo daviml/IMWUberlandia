@@ -15,18 +15,15 @@ export const styles = StyleSheet.create({
   },
   item:{
     
-    borderColor: 'black',
-    borderBottomWidth: 1,
-    padding:12,
-
-    fontSize: 20,
+    margin: 1,
+    
+    flexDirection:'row',
+  },
+  itemText:{
+    margin: 20,
     fontWeight: "bold",
+    fontSize: 18,
     
-  },
-  itemEnd:{
-    
-    textAlign:'right',
-    backgroundColor:'gray',
-  },
+  }
 })
 
