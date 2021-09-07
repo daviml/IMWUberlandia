@@ -28,7 +28,7 @@
       "package": "com.davimoraesladeira.IMWUberlandia",
       "config": {
         "googleMaps": {
-          "apiKey": ""
+          "apiKey": " "
         }
       },
       "versionCode": 1
